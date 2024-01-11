@@ -1,0 +1,18 @@
+<?php require COMMON_VIEW.'header.html'?>
+<div class="content">
+  <div class="main">
+        <h2 class="title1"><?php echo $data['title'];?></h2>
+        <div class="title2">作者:&nbsp;<?php echo $data['author'];?>&nbsp;&nbsp;
+        					时间:&nbsp;<?php echo $data['pub'];?>&nbsp;&nbsp;
+                  浏览量:&nbsp;<?php echo $data['visits'];?>&nbsp;&nbsp;
+        </div>
+        <p><?php echo $data['content'];?></p>
+    <div class="clear"></div>
+  </div>
+  
+  <a href="./?c=information" >
+    <p>　2017年6月1日，《中华人民共和国网络安全法》正式实施。作为我国互联网领域第一部专门法律，《网络安全法》申明了网络主权原则，建立了关键信息基础设施保护制度，明确了互联网信息内容管理部门、网络运营者与个人在网络安全保护领域的权利与义务，进一步完善了个人信息保护规则，并为构建网络安全法律法规体系提供了基础性依据。
+      </p>
+      <input type="button" class="button button8" name="Submit" value="返回" ></a>
+
+<?php require COMMON_VIEW.'footer.html'?>
